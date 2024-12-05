@@ -21,4 +21,36 @@
         android:label="Empty Fragment"
         tools:layout="@layout/fragment_empty" />
 
+    <!-- personajes-->
+    <fragment
+        android:id="@+id/personajesFragment"
+        android:name="cl.bootcamp.ejercicioindividual13.fragment.PersonajesFragment"
+        android:label="Personajes"
+        tools:layout="@layout/fragment_personajes">
+        <action
+            android:id="@+id/action_personajesFragment_to_avengersFragment"
+            app:destination="@id/avengersFragment" />
+        <action
+            android:id="@+id/action_personajesFragment_to_ddmFragment"
+            app:destination="@id/ddmFragment" />
+        <action
+            android:id="@+id/action_personajesFragment_to_jurassicParkFragment"
+            app:destination="@id/jurassicParkFragment" />
+        <action
+            android:id="@+id/action_personajesFragment_to_laEraDeHieloFragment"
+            app:destination="@id/laEraDeHieloFragment" />
+        <action
+            android:id="@+id/action_personajesFragment_to_matrixFragment"
+            app:destination="@id/matrixFragment" />
+        <action
+            android:id="@+id/action_personajesFragment_to_yoRobotFragment"
+            app:destination="@id/yoRobotFragment" />
+
+    </fragment>
+
+
+
+
+
+
 </navigation>

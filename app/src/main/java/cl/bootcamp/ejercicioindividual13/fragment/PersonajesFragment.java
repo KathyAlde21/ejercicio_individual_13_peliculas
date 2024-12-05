@@ -27,23 +27,23 @@ public class PersonajesFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         // Configurar clics para cada imagen
-        binding.imageShingeki.setOnClickListener(v ->
-                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_shingekiFragment));
+        binding.imageAvengers.setOnClickListener(v ->
+                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_avengersFragment));
 
-        binding.imageDbz.setOnClickListener(v ->
-                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_dbzFragment));
+        binding.imageDdm.setOnClickListener(v ->
+                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_ddmFragment));
 
-        binding.imageDigimon.setOnClickListener(v ->
-                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_digimonFragment));
+        binding.imageJurassicPark.setOnClickListener(v ->
+                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_jurassicParkFragment));
 
-        binding.imageSlamDunk.setOnClickListener(v ->
-                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_slamDunkFragment));
+        binding.imageEraDeHielo.setOnClickListener(v ->
+                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_laEraDeHieloFragment));
 
-        binding.imageNaruto.setOnClickListener(v ->
-                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_narutoFragment));
+        binding.imageMatrix.setOnClickListener(v ->
+                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_matrixFragment));
 
-        binding.imageVinland.setOnClickListener(v ->
-                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_vinlandFragment));
+        binding.imageYoRobot.setOnClickListener(v ->
+                Navigation.findNavController(view).navigate(R.id.action_personajesFragment_to_yoRobotFragment));
     }
 
     @Override
