@@ -16,4 +16,4 @@ Proyecto realizado según los siguientes requerimientos:
 4. La cantidad de enlaces va a depender del número de elementos que seleccionaste.
 
 
-<img src="./app/src/main/res/drawable/ejercicio_individual_12.jpg" alt="">
+<img src="./app/src/main/res/drawable/ejercicio_individual_13.jpg" alt="">
