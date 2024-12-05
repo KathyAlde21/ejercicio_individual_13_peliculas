@@ -9,10 +9,11 @@
     tools:context=".fragment.LaEraDeHieloFragment">
 
     <TextView
+        android:id="@+id/laEraDeHieloFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="La Era de Hielo"
+        android:text="@string/sEraHielo"
         android:textSize="24sp"
         android:textStyle="bold" />
 </LinearLayout>

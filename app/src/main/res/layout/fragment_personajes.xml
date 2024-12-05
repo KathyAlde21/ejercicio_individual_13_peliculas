@@ -14,10 +14,11 @@
         android:layout_height="0dp"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
+        android:focusable="true"
         android:src="@drawable/avengers_end_game"
         android:scaleType="centerCrop"
         android:clickable="true"
-        android:contentDescription="Avengers" />
+        android:contentDescription="@string/cdAvengers" />
 
     <ImageView
         android:id="@+id/image_ddm"
@@ -25,10 +26,11 @@
         android:layout_height="0dp"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
+        android:focusable="true"
         android:src="@drawable/dia_despues_de_manana"
         android:scaleType="centerCrop"
         android:clickable="true"
-        android:contentDescription="Dia despues de mañana" />
+        android:contentDescription="@string/cdDdm" />
 
     <ImageView
         android:id="@+id/image_jurassic_park"
@@ -36,10 +38,11 @@
         android:layout_height="0dp"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
+        android:focusable="true"
         android:src="@drawable/jurassic_park"
         android:scaleType="centerCrop"
         android:clickable="true"
-        android:contentDescription="Jurassic Park" />
+        android:contentDescription="@string/cdJPark" />
 
     <ImageView
         android:id="@+id/image_era_de_hielo"
@@ -47,10 +50,11 @@
         android:layout_height="0dp"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
+        android:focusable="true"
         android:src="@drawable/la_era_de_hielo"
         android:scaleType="centerCrop"
         android:clickable="true"
-        android:contentDescription="La Era de Hielo" />
+        android:contentDescription="@string/cdEraHielo" />
 
     <ImageView
         android:id="@+id/image_matrix"
@@ -58,10 +62,11 @@
         android:layout_height="0dp"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
+        android:focusable="true"
         android:src="@drawable/matrix"
         android:scaleType="centerCrop"
         android:clickable="true"
-        android:contentDescription="Matrix" />
+        android:contentDescription="@string/cdMatrix" />
 
     <ImageView
         android:id="@+id/image_yo_robot"
@@ -69,8 +74,9 @@
         android:layout_height="0dp"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
+        android:focusable="true"
         android:src="@drawable/yo_robot"
         android:scaleType="centerCrop"
         android:clickable="true"
-        android:contentDescription="Yo Robot" />
+        android:contentDescription="@string/cdRobot" />
 </GridLayout>

@@ -45,12 +45,5 @@
         <action
             android:id="@+id/action_personajesFragment_to_yoRobotFragment"
             app:destination="@id/yoRobotFragment" />
-
     </fragment>
-
-
-
-
-
-
 </navigation>

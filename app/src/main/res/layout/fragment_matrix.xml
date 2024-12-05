@@ -9,10 +9,11 @@
     tools:context=".fragment.MatrixFragment">
 
     <TextView
+        android:id="@+id/matrixFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Matrix"
+        android:text="@string/sMatrix"
         android:textSize="24sp"
         android:textStyle="bold" />
 </LinearLayout>

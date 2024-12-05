@@ -9,10 +9,11 @@
     tools:context=".fragment.JurassicParkFragment">
 
     <TextView
+        android:id="@+id/jurassicParkFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Jurassic Park"
+        android:text="@string/sJPark"
         android:textSize="24sp"
         android:textStyle="bold" />
 </LinearLayout>
